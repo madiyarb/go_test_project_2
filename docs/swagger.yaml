@@ -1,0 +1,29 @@
+info:
+  contact: {}
+paths:
+  /profile:
+    get:
+      description: Returns Hello World
+      produces:
+      - text/plain
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+      summary: Get profile
+      tags:
+      - profile
+    post:
+      description: returns created profile
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+      summary: Create Profile
+      tags:
+      - profile
+swagger: "2.0"

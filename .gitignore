@@ -1,0 +1,40 @@
+*.log
+.env
+.env.local
+.env.*.local
+# VS Code
+.vscode/
+
+# GoLand / IntelliJ
+.idea/
+
+# Vim
+*.swp
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Build output
+/bin/
+/build/
+/dist/
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependency directories (редко, если вдруг используешь)
+vendor/
+
+# Coverage
+*.out
+coverage.*
